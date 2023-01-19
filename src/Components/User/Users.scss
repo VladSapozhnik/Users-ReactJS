@@ -1,0 +1,16 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &_item {
+    border: 1px solid;
+    padding: 10px 5px;
+    width: 25%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
